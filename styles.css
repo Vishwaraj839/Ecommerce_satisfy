@@ -1,0 +1,156 @@
+/*styles.css*/
+body {
+    font-family: Arial, sans-serif;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+  }
+  header {
+    background-color: rgba(240,183,177,255);
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  header nav ul li {
+    float: left;
+  }
+  header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  header nav ul li a:hover {
+    background-color: #111;
+  }
+  main {
+    margin: 2em;
+  }
+  footer {
+    background-color: rgba(240,183,177,255);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  /*styles.css*/
+#featured-products {
+    text-align: center;
+  }
+  #featured-products ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  #featured-products li {
+    width: 30%;
+    margin: 1em;
+  }
+  #featured-products img {
+    width: 100%;
+  }
+  #featured-products h3 {
+    margin-top: 1em;
+  }
+  #featured-products p {
+    font-weight: bold;
+  }
+  #featured-products button {
+    background-color: rgba(240,183,177,255);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 1em;
+  }
+
+  #new-arrivals {
+    text-align: center;
+  }
+  #new-arrivals ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  #new-arrivals li {
+    width: 30%;
+    margin: 1em;
+  }
+  #new-arrivals img {
+    width: 100%;
+  }
+  #new-arrivals h3 {
+    margin-top: 1em;
+  }
+  #new-arrivals p {
+    font-weight: bold;
+  }
+  #new-arrivals button {
+    background-color: rgba(240,183,177,255);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 1em;
+  }
+  .hero {
+    background-image: url(/pink-velvet-wall1.webp);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066c0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  .socialtop {
+    float: right;
+    margin-right: 5%;
+    justify-items: right;
+  }
+  .top-social a {
+    padding: 13px;
+    color: rgb(11, 11, 11);
+    font-size: 30px;
+  }
+  .top-social {
+    padding: 14px 15px;
+  }
+  
+  .top-social a:hover {
+    color: #ce2727;
+  }
+  
+  
+  
